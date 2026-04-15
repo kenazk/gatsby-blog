@@ -2099,6 +2099,7 @@ commondir@^1.0.1:
 compass-vertical-rhythm@^1.4.5:
   version "1.4.5"
   resolved "https://registry.yarnpkg.com/compass-vertical-rhythm/-/compass-vertical-rhythm-1.4.5.tgz#4baa8d7068fda164d3675d706775d7547e8750f5"
+  integrity sha512-bJo3IYX7xmmZCDYjrT2XolaiNjGZ4E2JvUGxpdU0ecbH4ZLK786wvc8aHKVrGrKct9JlkmJbUi8YLrQWvOc+uA==
   dependencies:
     convert-css-length "^1.0.1"
     object-assign "^4.1.0"
@@ -2179,6 +2180,7 @@ console-control-strings@^1.0.0, console-control-strings@~1.1.0:
 console-polyfill@^0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/console-polyfill/-/console-polyfill-0.1.2.tgz#96cfed51caf78189f699572e6f18271dc37c0e30"
+  integrity sha512-oHLGQmf0q2yuuqfTXuzAB5UMqgPH1cHdwLkjfCqRTG2eupc52jbXT1OtOlREv+yXmXRi3wqywAevz3qMSk90Hg==
 
 console-stream@^0.1.1:
   version "0.1.1"
@@ -2199,6 +2201,7 @@ content-type@1.0.4, content-type@^1.0.4, content-type@~1.0.4:
 convert-css-length@^1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/convert-css-length/-/convert-css-length-1.0.2.tgz#32f38a8ac55d78372ff43562532564366c871ccc"
+  integrity sha512-ecV7j3hXyXN1X2XfJBzhMR0o1Obv0v3nHmn0UiS3ACENrzbxE/EknkiunS/fCwQva0U62X1GChi8GaPh4oTlLg==
   dependencies:
     console-polyfill "^0.1.2"
     parse-unit "^1.0.1"
@@ -2238,7 +2241,12 @@ core-js@^1.0.0, core-js@^1.2.6:
   version "1.2.7"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-1.2.7.tgz#652294c14651db28fa93bd2d5ff2983a4f08c636"
 
-core-js@^2.4.0, core-js@^2.5.0:
+core-js@^2.4.0:
+  version "2.6.12"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.6.12.tgz#d9333dfa7b065e347cc5682219d6f690859cc2ec"
+  integrity sha512-Kb2wC0fvsWfQrgk8HU5lW6U/Lcs8+9aaYcy4ZFc6DDlo4nZ7n70dEgE5rtR0oG6ufKDUnrwfWL1mXR5ljDatrQ==
+
+core-js@^2.5.0:
   version "2.5.7"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.5.7.tgz#f972608ff0cead68b841a16a932d0b183791814e"
 
@@ -3929,9 +3937,10 @@ gatsby-plugin-sharp@^1.6.42, gatsby-plugin-sharp@^1.6.46:
     sharp "^0.20.0"
     svgo "^0.7.2"
 
-gatsby-plugin-typography@^1.7.18:
-  version "1.7.18"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-typography/-/gatsby-plugin-typography-1.7.18.tgz#391f300afae465d3aa384d6630ce9df172eba3b8"
+gatsby-plugin-typography@^1.7.19:
+  version "1.7.19"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-typography/-/gatsby-plugin-typography-1.7.19.tgz#64a7bbb49d1ed4456dbe6b45f25a891f06a63b6d"
+  integrity sha512-DnE6aM61/yTzBMFDFEnsDF1+Mz8SG+ULt43nXtpztg8uTqqld0HY/FXt8t6MktyrN99cd7VjpKDmWpLld9eZEQ==
   dependencies:
     babel-runtime "^6.26.0"
     react-typography "^0.16.1"
@@ -4496,6 +4505,7 @@ gray-matter@^3.0.0:
 gray-percentage@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/gray-percentage/-/gray-percentage-2.0.0.tgz#b72a274d1b1379104a0050b63b207dc53fe56f99"
+  integrity sha512-T0i4bwJoXbweuBM7bJwil9iHVAwXxmS9IFsEy27cXvRYxHwR2YVSBSXBjJw4EDKUvLpfjANeT5PrvTuAH1XnTw==
 
 gulp-decompress@^1.2.0:
   version "1.2.0"
@@ -5948,6 +5958,7 @@ lodash.isequal@^4.0.0:
 lodash.isnumber@^3.0.0:
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/lodash.isnumber/-/lodash.isnumber-3.0.3.tgz#3ce76810c5928d03352301ac287317f11c0b1ffc"
+  integrity sha512-QYqzpfwO3/CWf3XP+Z+tkQsfaLL/EnUlXWVkIk5FUPc4sBdTehEqZONuyRt2P67PXAk+NXmTBcc97zw9t1FQrw==
 
 lodash.isplainobject@^4.0.6:
   version "4.0.6"
@@ -6059,13 +6070,18 @@ lodash@3.10.1:
   version "3.10.1"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-3.10.1.tgz#5bf45e8e49ba4189e17d482789dfd15bd140b7b6"
 
-lodash@4, lodash@^4.0.0, lodash@^4.1.0, lodash@^4.13.1, lodash@^4.15.0, lodash@^4.17.10, lodash@^4.17.2, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.2.0, lodash@^4.2.1, lodash@^4.3.0, lodash@^4.6.1:
+lodash@4, lodash@^4.0.0, lodash@^4.1.0, lodash@^4.15.0, lodash@^4.17.10, lodash@^4.17.2, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.2.0, lodash@^4.2.1, lodash@^4.3.0, lodash@^4.6.1:
   version "4.17.10"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.10.tgz#1b7793cf7259ea38fb3661d4d38b3260af8ae4e7"
 
 lodash@4.11.1:
   version "4.11.1"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.11.1.tgz#a32106eb8e2ec8e82c241611414773c9df15f8bc"
+
+lodash@^4.13.1:
+  version "4.18.1"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.18.1.tgz#ff2b66c1f6326d59513de2407bf881439812771c"
+  integrity sha512-dMInicTPVE8d1e5otfwmmjlxkZoUpiVLwyeTdUsi/Caj/gfzzblBcCE5sRHV/AsjuCmxWrte2TNGSYuCeCq+0Q==
 
 log-symbols@^1.0.2:
   version "1.0.2"
@@ -6498,6 +6514,7 @@ mkdirp@0.5.1, mkdirp@^0.5.0, mkdirp@^0.5.1, mkdirp@~0.5.0, mkdirp@~0.5.1:
 modularscale@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/modularscale/-/modularscale-1.0.2.tgz#4a8f13af32a5e5214fc6e2cfc529064abfd7d877"
+  integrity sha512-xfu46hZcAL9xU8S/RihHE49rmDYRAg36lQez49pcO6/aLBJ7cfVr5DH7Obo2PGKTCSAyy4iTAsWZa9apECK9mQ==
   dependencies:
     lodash.isnumber "^3.0.0"
 
@@ -7138,6 +7155,7 @@ parse-passwd@^1.0.0:
 parse-unit@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/parse-unit/-/parse-unit-1.0.1.tgz#7e1bb6d5bef3874c28e392526a2541170291eecf"
+  integrity sha512-hrqldJHokR3Qj88EIlV/kAyAi/G5R2+R56TBANxNMy0uPlYcttx0jnMW6Yx5KsKPSbC3KddM/7qQm3+0wEXKxg==
 
 parse5@^3.0.1, parse5@^3.0.3:
   version "3.0.3"
@@ -8204,8 +8222,9 @@ react-side-effect@^1.1.0:
     shallowequal "^1.0.1"
 
 react-typography@^0.16.1:
-  version "0.16.13"
-  resolved "https://registry.yarnpkg.com/react-typography/-/react-typography-0.16.13.tgz#94bdd2a9448823bc74d8ebf7465d86c7dbe20dcf"
+  version "0.16.23"
+  resolved "https://registry.yarnpkg.com/react-typography/-/react-typography-0.16.23.tgz#68c0af17ed876a30fcea256ef0dbbf0bc01b63b3"
+  integrity sha512-nOl1/VDhqYSp5XktW/xmeLgE2S4L0LIWKAq2lNtc6Tq+3ZgvSX2Q0r0vlLKyOVq0hjsOYubE1TLoz/Wu/W8GLg==
 
 react@^15.6.0:
   version "15.6.2"
@@ -8386,6 +8405,7 @@ regenerator-runtime@^0.10.5:
 regenerator-runtime@^0.11.0:
   version "0.11.1"
   resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.11.1.tgz#be05ad7f9bf7d22e056f9726cee5017fbf19e2e9"
+  integrity sha512-MguG95oij0fC3QV3URf4V2SDYGJhJnJGqvIIgdECeODCT98wSWDAJ94SSuVpYQUoTcGUIL6L4yNB7j1DFFHSBg==
 
 regenerator-transform@^0.10.0:
   version "0.10.1"
@@ -10065,9 +10085,10 @@ typography-breakpoint-constants@^0.15.10:
   version "0.15.10"
   resolved "https://registry.yarnpkg.com/typography-breakpoint-constants/-/typography-breakpoint-constants-0.15.10.tgz#bd5308dd57250e7f28a8c6e1c0e668ddf1178c5c"
 
-typography-normalize@^0.14.0:
-  version "0.14.0"
-  resolved "https://registry.yarnpkg.com/typography-normalize/-/typography-normalize-0.14.0.tgz#1d77c1fe2aaf4a51b3673c4c85c85a65a2d4b573"
+typography-normalize@^0.16.19:
+  version "0.16.19"
+  resolved "https://registry.yarnpkg.com/typography-normalize/-/typography-normalize-0.16.19.tgz#58e0cf12466870c5b27006daa051fe7307780660"
+  integrity sha512-vtnSv/uGBZVbd4e/ZhZB9HKBgKKlWQUXw74+ADIHHxzKp27CEf8PSR8TX1zF2qSyQ9/qMdqLwXYz8yRQFq9JLQ==
 
 typography-theme-wordpress-2016@^0.15.10:
   version "0.15.10"
@@ -10077,8 +10098,9 @@ typography-theme-wordpress-2016@^0.15.10:
     typography-breakpoint-constants "^0.15.10"
 
 typography@^0.16.0:
-  version "0.16.17"
-  resolved "https://registry.yarnpkg.com/typography/-/typography-0.16.17.tgz#e166eda9b533d51c115e2b38becdb5cedd0a30e4"
+  version "0.16.24"
+  resolved "https://registry.yarnpkg.com/typography/-/typography-0.16.24.tgz#7bcbe3921367ca74168d0acce969749a0546fd4d"
+  integrity sha512-o5jNctzGoJm2XgdqivJdpkF6lQkcQo8v1biMGY+rLSpBHhpCKdQv5em9S3R6igApxVYtbhNBJbV95vK9oPwRKQ==
   dependencies:
     compass-vertical-rhythm "^1.4.5"
     decamelize "^1.2.0"
@@ -10086,7 +10108,7 @@ typography@^0.16.0:
     lodash "^4.13.1"
     modularscale "^1.0.2"
     object-assign "^4.1.0"
-    typography-normalize "^0.14.0"
+    typography-normalize "^0.16.19"
 
 ua-parser-js@^0.7.9:
   version "0.7.18"
